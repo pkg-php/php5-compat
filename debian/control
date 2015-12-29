@@ -56,8 +56,7 @@ Package: php5-common
 Architecture: all
 Depends: php-common,
          ${misc:Depends}
-Provides: php5-mhash,
-          ${php:Provides}
+Provides: php5-mhash
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
@@ -142,7 +141,7 @@ Description: transitional dummy package
 Package: php5-mcrypt
 Architecture: all
 Depends: php-mcrypt,
-         ${php:Depends}
+         ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
@@ -191,8 +190,7 @@ Description: transitional dummy package
 Package: php5-readline
 Architecture: all
 Depends: php-readline,
-         ${php:Depends}
-Pre-Depends: ${misc:Pre-Depends}
+         ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
@@ -228,7 +226,7 @@ Description: transitional dummy package
 Package: php5-tidy
 Architecture: all
 Depends: php-tidy,
-         ${php:Depends}
+         ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
