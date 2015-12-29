@@ -210,7 +210,7 @@ Description: transitional dummy package
 
 Package: php5-sqlite
 Architecture: all
-Depends: php-sqlite,
+Depends: php-sqlite3,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
