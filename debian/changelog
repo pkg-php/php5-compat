@@ -1,3 +1,10 @@
+php5 (7.20151229) experimental; urgency=medium
+
+  * Update php5-sqlite dependency to php-sqlite3
+  * Change the version number to include date
+
+ -- Ondřej Surý <ondrej@debian.org>  Tue, 29 Dec 2015 14:18:09 +0100
+
 php5 (7.0) experimental; urgency=low
 
   * Convert the src:php5 package to produce transitional dummy packages
