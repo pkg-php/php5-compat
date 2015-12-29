@@ -1,4 +1,4 @@
-php5 (7.0) unstable; urgency=low
+php5 (7.0) experimental; urgency=low
 
   * Convert the src:php5 package to produce transitional dummy packages
 
