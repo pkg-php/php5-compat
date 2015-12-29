@@ -1,0 +1,247 @@
+Source: php5
+Priority: extra
+Section: oldlibs
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>,
+           Thijs Kinkhorst <thijs@debian.org>,
+           Lior Kaplan <kaplan@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-php/php5.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-php/php5.git
+
+Package: libapache2-mod-php5
+Architecture: all
+Depends: libapache2-mod-php,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: libapache2-mod-php5filter
+Architecture: all
+Depends: libapache2-mod-php,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: libphp5-embed
+Architecture: all
+Depends: libphp-embed,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5
+Architecture: all
+Depends: php,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-cgi
+Architecture: all
+Depends: php-cgi,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-cli
+Architecture: all
+Depends: php-cli,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-common
+Architecture: all
+Depends: php-common,
+         ${misc:Depends}
+Provides: php5-mhash,
+          ${php:Provides}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-curl
+Architecture: all
+Depends: php-curl,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-dbg
+Depends: php-dbg,
+         ${misc:Depends}
+Recommends: gdb
+Architecture: all
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-dev
+Depends: php-dev,
+         ${misc:Depends}
+Architecture: all
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-enchant
+Architecture: all
+Depends: php-enchant,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-fpm
+Architecture: all
+Depends: php-fpm,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-gd
+Architecture: all
+Depends: php-gd,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-gmp
+Architecture: all
+Depends: php-gmp,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-imap
+Architecture: all
+Depends: php-imap,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-interbase
+Architecture: kfreebsd-any linux-any
+Depends: php-interbase,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-intl
+Architecture: all
+Depends: php-intl,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-ldap
+Architecture: all
+Depends: php-imap,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-mcrypt
+Architecture: all
+Depends: php-mcrypt,
+         ${php:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-mysql
+Architecture: all
+Depends: php-mysql,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-mysqlnd
+Architecture: all
+Depends: php-mysql,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-odbc
+Architecture: all
+Depends: php-odbc,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-pgsql
+Architecture: all
+Depends: php-pgsql,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-phpdbg
+Architecture: all
+Depends: php-phpdbg,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-pspell
+Architecture: all
+Depends: php-pspell,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-readline
+Architecture: all
+Depends: php-readline,
+         ${php:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-recode
+Architecture: all
+Depends: php-recode,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-snmp
+Architecture: all
+Depends: php-snmp,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-sqlite
+Architecture: all
+Depends: php-sqlite,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-sybase
+Architecture: all
+Depends: php-sybase,
+         ${misc:Depends}
+Provides: php5-mssql
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-tidy
+Architecture: all
+Depends: php-tidy,
+         ${php:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-xmlrpc
+Architecture: all
+Depends: php-xmlrpc,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
+Package: php5-xsl
+Architecture: all
+Depends: php-xsl,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
