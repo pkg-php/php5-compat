@@ -118,7 +118,7 @@ Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-interbase
-Architecture: kfreebsd-any linux-any
+Architecture: all
 Depends: php-interbase,
          ${misc:Depends}
 Description: transitional dummy package
