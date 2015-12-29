@@ -7,7 +7,7 @@ set -e
 
 case "$1" in
     purge)
-	rm -rf /var/lib/php
+	rm -rf /var/lib/php5
 	;;
     
     remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
