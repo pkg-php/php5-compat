@@ -1,3 +1,9 @@
+php5 (7.20151230) experimental; urgency=medium
+
+  * Set Architecture: all also for php5-interbase
+
+ -- Ondřej Surý <ondrej@debian.org>  Tue, 29 Dec 2015 16:31:03 +0100
+
 php5 (7.20151229) experimental; urgency=medium
 
   * Update php5-sqlite dependency to php-sqlite3
