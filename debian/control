@@ -2,59 +2,62 @@ Source: php5
 Priority: extra
 Section: oldlibs
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
-Uploaders: Ondřej Surý <ondrej@debian.org>,
-           Thijs Kinkhorst <thijs@debian.org>,
-           Lior Kaplan <kaplan@debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Vcs-Git: git://anonscm.debian.org/pkg-php/php5.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-php/php5.git
 
 Package: libapache2-mod-php5
 Architecture: all
-Depends: libapache2-mod-php,
+Depends: libapache2-mod-php5.6,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: libapache2-mod-php5filter
 Architecture: all
-Depends: libapache2-mod-php,
+Depends: libapache2-mod-php5.6,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: libphp5-embed
 Architecture: all
-Depends: libphp-embed,
+Depends: libphp5.6-embed,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5
 Architecture: all
-Depends: php,
+Depends: php5.6,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-cgi
 Architecture: all
-Depends: php-cgi,
+Depends: php5.6-cgi,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-cli
 Architecture: all
-Depends: php-cli,
+Depends: php5.6-cli,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-common
 Architecture: all
-Depends: php-common,
+Depends: php5.6-common,
+         php5.6-dba,
+         php5.6-mbstring,
+         php5.6-soap,
+         php5.6-xml,
+         php5.6-zip,
          ${misc:Depends}
 Provides: php5-mhash
 Description: transitional dummy package
@@ -62,21 +65,13 @@ Description: transitional dummy package
 
 Package: php5-curl
 Architecture: all
-Depends: php-curl,
+Depends: php5.6-curl,
          ${misc:Depends}
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
-
-Package: php5-dbg
-Depends: php-dbg,
-         ${misc:Depends}
-Recommends: gdb
-Architecture: all
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-dev
-Depends: php-dev,
+Depends: php5.6-dev,
          ${misc:Depends}
 Architecture: all
 Description: transitional dummy package
@@ -84,140 +79,140 @@ Description: transitional dummy package
 
 Package: php5-enchant
 Architecture: all
-Depends: php-enchant,
+Depends: php5.6-enchant,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-fpm
 Architecture: all
-Depends: php-fpm,
+Depends: php5.6-fpm,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-gd
 Architecture: all
-Depends: php-gd,
+Depends: php5.6-gd,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-gmp
 Architecture: all
-Depends: php-gmp,
+Depends: php5.6-gmp,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-imap
 Architecture: all
-Depends: php-imap,
+Depends: php5.6-imap,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-interbase
 Architecture: all
-Depends: php-interbase,
+Depends: php5.6-interbase,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-intl
 Architecture: all
-Depends: php-intl,
+Depends: php5.6-intl,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-ldap
 Architecture: all
-Depends: php-imap,
+Depends: php5.6-imap,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-mcrypt
 Architecture: all
-Depends: php-mcrypt,
+Depends: php5.6-mcrypt,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-mysql
 Architecture: all
-Depends: php-mysql,
+Depends: php5.6-mysql,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-mysqlnd
 Architecture: all
-Depends: php-mysql,
+Depends: php5.6-mysql,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-odbc
 Architecture: all
-Depends: php-odbc,
+Depends: php5.6-odbc,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-pgsql
 Architecture: all
-Depends: php-pgsql,
+Depends: php5.6-pgsql,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-phpdbg
 Architecture: all
-Depends: php-phpdbg,
+Depends: php5.6-phpdbg,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-pspell
 Architecture: all
-Depends: php-pspell,
+Depends: php5.6-pspell,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-readline
 Architecture: all
-Depends: php-readline,
+Depends: php5.6-readline,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-recode
 Architecture: all
-Depends: php-recode,
+Depends: php5.6-recode,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-snmp
 Architecture: all
-Depends: php-snmp,
+Depends: php5.6-snmp,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-sqlite
 Architecture: all
-Depends: php-sqlite3,
+Depends: php5.6-sqlite3,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-sybase
 Architecture: all
-Depends: php-sybase,
+Depends: php5.6-sybase,
          ${misc:Depends}
 Provides: php5-mssql
 Description: transitional dummy package
@@ -225,21 +220,21 @@ Description: transitional dummy package
 
 Package: php5-tidy
 Architecture: all
-Depends: php-tidy,
+Depends: php5.6-tidy,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-xmlrpc
 Architecture: all
-Depends: php-xmlrpc,
+Depends: php5.6-xmlrpc,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
 Package: php5-xsl
 Architecture: all
-Depends: php-xsl,
+Depends: php5.6-xml,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
