@@ -1,19 +1,7 @@
-php5 (7.20151230) experimental; urgency=medium
+php5 (5.6.99.20160505) experimental; urgency=medium
 
-  * Set Architecture: all also for php5-interbase
+  * Remove cut&paste php-common.prerm
+  * Change the version to 5.6.99 to make sure this is for PHP 5.6
+  * Depend on php5.6-* counterparts
 
- -- Ondřej Surý <ondrej@debian.org>  Tue, 29 Dec 2015 16:31:03 +0100
-
-php5 (7.20151229) experimental; urgency=medium
-
-  * Update php5-sqlite dependency to php-sqlite3
-  * Change the version number to include date
-
- -- Ondřej Surý <ondrej@debian.org>  Tue, 29 Dec 2015 14:18:09 +0100
-
-php5 (7.0) experimental; urgency=low
-
-  * Convert the src:php5 package to produce transitional dummy packages
-
- -- Ondřej Surý <ondrej@debian.org>  Tue, 29 Dec 2015 09:27:34 +0100
-
+ -- Ondřej Surý <ondrej@debian.org>  Thu, 05 May 2016 17:17:13 +0200
