@@ -1,4 +1,4 @@
-php5 (5.6.99.20160505) experimental; urgency=medium
+php5-compat (5.6.99.20160505) experimental; urgency=medium
 
   * Remove cut&paste php-common.prerm
   * Change the version to 5.6.99 to make sure this is for PHP 5.6

@@ -1,12 +1,12 @@
-Source: php5
+Source: php5-compat
 Priority: extra
 Section: oldlibs
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
-Vcs-Git: git://anonscm.debian.org/pkg-php/php5.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-php/php5.git
+Vcs-Git: git://anonscm.debian.org/pkg-php/php5-compat.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-php/php5-compat.git
 
 Package: libapache2-mod-php5
 Architecture: all
@@ -126,6 +126,13 @@ Depends: php5.6-intl,
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
 
+Package: php5-json
+Architecture: all
+Depends: php5.6-json,
+         ${misc:Depends}
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+
 Package: php5-ldap
 Architecture: all
 Depends: php5.6-imap,
@@ -238,3 +245,4 @@ Depends: php5.6-xml,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
+
