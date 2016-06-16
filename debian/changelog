@@ -1,3 +1,10 @@
+php5-compat (5.6.99.20160616) experimental; urgency=medium
+
+  [ Loren ]
+  * Update the ldap depends
+
+ -- Ondřej Surý <ondrej@debian.org>  Thu, 16 Jun 2016 15:17:34 +0200
+
 php5-compat (5.6.99.20160513) experimental; urgency=medium
 
   * Rename source package to php5-compat, add php5-json to the bunch
