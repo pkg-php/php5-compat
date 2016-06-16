@@ -135,7 +135,7 @@ Description: transitional dummy package
 
 Package: php5-ldap
 Architecture: all
-Depends: php5.6-imap,
+Depends: php5.6-ldap,
          ${misc:Depends}
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
